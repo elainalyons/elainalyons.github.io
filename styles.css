@@ -1,5 +1,5 @@
 body {
-    background-color:rgb(234, 246, 237);
+    background-color:rgb(247, 255, 250);
     position: relative;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 0;
@@ -52,7 +52,7 @@ main {
     align-items: center;
     background-color: rgb(41, 69, 27);
     color: white;
-    position: absolute;
+    position:fixed;
     bottom: 0;
     width: 100%;
     height: 2.5rem;
@@ -61,4 +61,60 @@ main {
   .about {
     display: flex;
     justify-content: center;
+    margin: 10px 250px 40px 250px;
+  }
+
+  .about-text {
+    font-size: 20px;
+    padding-left:2%;
+    line-height: 2;
+  }
+
+ img {
+    border: 6px solid #000000;
+    border-radius:10%;
+  }
+
+  .page-title {
+    color: rgb(41, 69, 27);
+    font-size: 50px;
+  }
+
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+  }
+
+  input {
+    width:300px;
+    padding:15px;
+    margin-top:10px;
+    font-size:20px;
+  }
+
+  input[type=submit]{
+    background-color: rgb(41, 69, 27);
+    color: white;    
+    width:fit-content;
+    margin-top:0;
+  }
+
+  textarea {
+    width:300px;
+    padding: 15px;
+    margin-top: 10px;
+    font-size:20px;
+  }
+
+  .project {
+    display:flex;
+    flex-direction:row;
+    margin-left:30%;
+    margin-right:30%;
+  }
+
+  .project-image {
+    border:0;
+    border-radius:0;
   }
