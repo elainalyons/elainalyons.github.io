@@ -1,5 +1,5 @@
 body {
-    background-color:rgb(230, 255, 247);
+    background-color:rgb(234, 246, 237);
     position: relative;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 0;
@@ -52,8 +52,8 @@ main {
     align-items: center;
     background-color: rgb(41, 69, 27);
     color: white;
-    position: relative;
-    bottom: 0;
+    position:absolute;
+    bottom:0%;
     width: 100%;
     height: 2.5rem;
   }
